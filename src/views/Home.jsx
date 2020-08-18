@@ -7,6 +7,9 @@ class Home extends Component {
       <div>
         <div className="box-container">
           <div className="boxes">
+            <Link to="/beer/:id">
+              <h2>single Beer</h2>
+            </Link>
             <Link to="/beers">
               <img src="/images/beers-bar.jpg" alt="List of All Beers" />
               <h2>List of All Beers</h2>

@@ -17,7 +17,7 @@ function App() {
           <Route path="/beers" component={ListBeers} />
           <Route path="/new" component={NewBeer} />
           <Route path="/random" component={RandomBeer} />
-          <Route path="/:id" component={SingleBeer} />
+          <Route path="/beer/:id" component={SingleBeer} />
         </Switch>
       </BrowserRouter>
     </div>
